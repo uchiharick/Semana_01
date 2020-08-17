@@ -1,10 +1,15 @@
-hora = int(input('Digite a hora: '))
-minuto = int(input('Digite os minutos: '))
-segundo = int(input('Digite os segundos: '))
+def calculo():
+    hora = int(input())
+    minuto = int(input())
+    segundo = int(input())
 
-horas = (hora *  60) * 60
-minutos = minuto * 60
+    horas = (hora *  60) * 60
+    minutos = minuto * 60
 
-resultado = horas + minutos + segundo
+    return horas + minutos + segundo
 
-print(resultado)
+def main():
+    print(calculo())
+
+if __name__ == '__main__' :
+    main()
