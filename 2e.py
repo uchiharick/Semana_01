@@ -5,7 +5,7 @@ def calculo():
 
     area_piso = largura * comprimento
     volume_da_sala = largura * comprimento * altura
-    area_das_paredes_da_sala = 2 * altura * (largura + 2) * altura * comprimento
+    area_das_paredes_da_sala = (2 * altura * largura) + (2 * altura * comprimento)
 
     
     print(area_piso)
